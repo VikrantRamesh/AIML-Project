@@ -91,11 +91,9 @@ body{
   margin-bottom: 15%;
   color:#ff92a5;
 }
-
 .feature-img:hover{
   color: #fb4570;
 }
-
 .testemonial-image{
   border-radius: 100%;
   margin:5%;
@@ -149,7 +147,6 @@ body{
   margin: auto 0 auto 0;
   line-height: 0.2;
 }
-
 .Product-demo-gif{
   border-radius: 20px;
   border:30px;
