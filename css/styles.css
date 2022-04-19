@@ -1,33 +1,37 @@
-
-h1{
-  font-size: 4rem;
-  line-height: 1.5;
-  margin-top: 12%;
-}
-
+/*Used for general headings in the website*/
 h2{
-  font-family: "Montserrat";
   font-size: 3rem;
   line-height:1.5;
   font-weight: 800;
 }
 
+/* used for smaller sub-headings below h2 */
+
 h3{
-  font-family: "Montserrat";
   font-weight:500;
   font-size: 2.5rem;
   line-height:1.5;
 }
 
+/* plain text in the website below h3 */
 h4{
-  font-family: "Montserrat";
   font-weight:300;
   font-size: 1.5rem;
   line-height:1.4;
 }
 
+
+/* all the fonts in our website is montserrat font */
 body{
     font-family: "Montserrat";
+}
+
+
+/* headings */
+.Main-Welcome-heading{
+  font-size: 4rem;
+  line-height: 1.5;
+  margin-top: 12%;
 }
 
 
@@ -35,24 +39,22 @@ body{
 .navbar{
   padding-bottom: 4.5rem;
 }
-
 .navbar-brand{
   font-variant: small-caps;
   font-size: 4em;
 }
-
 .nav-item{
     font-size: 1.5rem;
-    padding: 0 2rem;
+    padding: 0 2rem 0 0 ;
+    text-align: left;
 }
-
 .menu_icon{
   position: relative;
   margin-right: 20px;
   margin-left: 10px;
   border-radius: 100%;
-  width:30px;
-  height:30px;
+  width:70px;
+  height:70px;
 }
 
 
@@ -61,7 +63,9 @@ body{
   padding: 3% 15%;
 }
 
-.centralised-containers{
+
+/*features*/
+.feature-containers{
     text-align: center;
 }
 
@@ -82,13 +86,13 @@ body{
 
 
 /* images */
-.sup-img{
+.feature-img{
   margin-top:15%;
   margin-bottom: 15%;
   color:#ff92a5;
 }
 
-.sup-img:hover{
+.feature-img:hover{
   color: #fb4570;
 }
 
@@ -109,20 +113,17 @@ body{
 }
 .testimonial-content{
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 3.5rem;
   line-height:1.5;
 }
 .carousel-item{
     padding: 7% 10%;
 }
-
 .press-logo{
   width:50%;
   margin:20px 20px 50px;
 }
-
-/*container box*/
+    /*container box*/
 .testimonial-name-box{
   font-size: 2rem;
   text-align: center;
@@ -171,26 +172,19 @@ body{
   padding: 0 0 10px 0;
 }
 
-
-
-
 /*general margins*/
 .marign-right{
   margin: 0 1% 0 0 ;
 }
-
 .margin-left{
   margin: 0 0 0 1%;
 }
-
 .margin-top{
   margin: 1% 0 0 0;
 }
 .margin-bottom{
   margin-bottom:200px;
 }
-
-
 
 /*fonts*/
 .montserrat-black{
@@ -201,6 +195,10 @@ body{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+.montserrat-medium{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
 .montserrat{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -208,10 +206,7 @@ body{
 .ubuntu-font{
     font-family: 'Ubuntu', sans-serif;
 }
-.montserrat-medium{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-}
+
 
 
 #navbarToggler01{
@@ -253,4 +248,28 @@ body{
 #cta{
   text-align: center;
   margin: 10%;
+}
+
+
+@media (max-width: 1000px) {
+  .container-fluid{
+    padding: 3% 5%;
+    text-align: center;
+  }
+
+  .download-btn{
+    margin: 10% 3% 5% 0%;
+    width:40%;
+    height:15%;
+  }
+  .press-logo{
+    width:80%;
+    margin:20px 20px 50px;
+  }
+  #pricing{
+    background-color: #fb4570;
+    padding: 7% 5%;
+    color:#fff;
+  }
+
 }
