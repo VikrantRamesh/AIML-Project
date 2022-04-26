@@ -160,18 +160,6 @@ body{
     background-color: #feeeec;
     opacity: 0.95;
     padding: 4%;
-    width: 30%;
-    text-align: center;
-    bottom: -110%;
-    left: 65%;
-  }
-
-  .City-Info{
-    position:absolute;
-    border-radius: 30px;
-    background-color: #feeeec;
-    opacity: 0.95;
-    padding: 4%;
     width: 60%;
     text-align: center;
     bottom: -110%;
