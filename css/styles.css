@@ -56,6 +56,14 @@ body{
   width:70px;
   height:70px;
 }
+.dots{
+  margin:50px auto 20px auto;
+  border: none;
+  border-top: 5px dotted #ff92a5;
+  border-width: 10px;
+  width: 40%;
+  background: none;
+}
 
 
 /* homepage container */
@@ -86,6 +94,19 @@ body{
 
 
 /* images */
+.sector-img{
+  margin: 15% auto 15% auto;
+  color:#ff92a5;
+}
+
+.circular{
+  margin: auto;
+}
+
+.sector-img:hover{
+  color: #fb4570;
+}
+
 .feature-img{
   margin-top:15%;
   margin-bottom: 15%;
@@ -212,6 +233,11 @@ body{
 
 #title{
   background-image: url("../images/Main_img.jpeg");
+}
+
+#sectors{
+  margin: 5% 20%;
+  text-align: center;
 }
 
 #features{
