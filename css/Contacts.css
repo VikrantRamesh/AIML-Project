@@ -139,7 +139,7 @@ body{
   color: white;
   padding: 1%;
 }
-@media (max-width:1024px){
+@media (max-width:1400px){
   .City-Info{
     position: static;
     margin: auto;
