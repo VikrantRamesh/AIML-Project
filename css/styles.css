@@ -274,7 +274,7 @@ body{
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   .container-fluid{
     padding: 3% 5%;
     text-align: center;
@@ -293,6 +293,17 @@ body{
     background-color: #fb4570;
     padding: 7% 5%;
     color:#fff;
+  }
+
+  .navbar-brand{
+    font-variant: small-caps;
+    font-size: 4rem;
+  }
+
+  .nav-item{
+      font-size: 3rem;
+      padding: 0 2rem 0 0 ;
+      text-align: left;
   }
 
 }

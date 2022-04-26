@@ -43,3 +43,16 @@ i{
 
   text-align: center;
 }
+
+@media (max-width:1400px){
+  .navbar-brand{
+    font-variant: small-caps;
+    font-size: 4rem;
+  }
+
+  .nav-item{
+      font-size: 3rem;
+      padding: 0 2rem 0 0 ;
+      text-align: left;
+  }
+}
