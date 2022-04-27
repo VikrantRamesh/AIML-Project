@@ -1,24 +1,19 @@
 h2{
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   line-height:1.5;
   font-weight: 700;
 }
-
-
 h3{
-  font-weight:500;
-  font-size: 2.4rem;
+  font-weight:600;
+  font-size: 2.5rem;
   line-height:1.5;
-  margin: 0 0 4% 0;
 }
-
 h4{
   font-weight:500;
   font-size: 1.8rem;
   line-height:1.5;
   margin: 4% 0;
 }
-
 body{
     font-family: "Montserrat";
 }
@@ -26,9 +21,11 @@ body{
 #navbarToggler01{
   margin-left:0.5%;
 }
-
 #navbar{
   margin-bottom: 5rem;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("../images/Main_img.jpeg");
 }
 
 /* navigation bar */
@@ -37,7 +34,7 @@ body{
 }
 .navbar-brand{
   font-variant: small-caps;
-  font-size: 2.5rem;
+  font-size: 2.5em;
 }
 .nav-item{
     font-size: 1.5rem;
@@ -53,65 +50,13 @@ body{
   height:70px;
 }
 
-.Contact-main{
-    background-image: url("../images/Main_img.jpeg");
-}
-
-#navbar{
-  text-align: center;
-  margin: 0 auto;
-}
-
 
 /* homepage container */
 .container-fluid{
   padding: 0% 4%;
 }
 
-.container-fluid-top-margin{
-  padding: 4% 4%;
-}
-
-.Contacts-headline{
-  margin: 10% 10% 4% 0;
-  padding-bottom: 8rem;
-  margin-right: 25%;
-  color: white;
-}
-
-.Social-media{
-    text-align: center;
-    margin: auto 15%;
-}
-
-.social-media-img{
-  margin: 20%;
-  color:#ff92a5;
-}
-.social-media-img:hover{
-  color: #fb4570;
-}
-
-
-
-/* city image */
-.city-img{
-  width: 100%;
-  margin: 10% 0;
-}
-
-.City-Info{
-  position:absolute;
-  border-radius: 30px;
-  background-color: #feeeec;
-  opacity: 0.95;
-  padding: 4%;
-  width: 30%;
-  text-align: center;
-  bottom: -110%;
-  left: 65%;
-}
-
+/* bars and dots */
 .dots{
   margin:1% auto 20% auto;
   border: none;
@@ -127,19 +72,40 @@ body{
   border-width: 5px;
   width: 60%;
   background: none;
-
 }
 
-.loc-icon{
-  margin-right: 4%;
+/* projects body */
+#projects-discription{
+    margin: 5%;
+    text-align: center;
 }
 
+.Product-demo-img, .Product-demo-gif{
+  margin: 5% 0 0;
+  width:80%;
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px #ff96cd;
+}
+
+.row{
+  padding: 5%;
+  margin: 8% 0;
+  background-color: #ffd3db;
+  border-radius: 20px;
+}
+
+
+/* end bar */
 .end-bar{
   margin-top: 5%;
   background-color: #e81c74;
   color: white;
   padding: 1%;
 }
+
+
+
+
 
 @media (max-width:1400px){
   .navbar-brand{
@@ -151,19 +117,6 @@ body{
       font-size: 3rem;
       padding: 0 2rem 0 0 ;
       text-align: left;
-  }
-
-  .City-Info{
-    position: static;
-    margin: auto;
-    border-radius: 30px;
-    background-color: #feeeec;
-    opacity: 0.95;
-    padding: 4%;
-    width: 60%;
-    text-align: center;
-    bottom: -110%;
-    left: 65%;
   }
 
 }
